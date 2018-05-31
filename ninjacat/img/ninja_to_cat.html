@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="link_ninja.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".hello").click(function(){
+                var temp = $(this).attr("src");
+                $(this).attr("src", $(this).attr("data-alt-src"));
+                $(this).attr("data-alt-src", temp);
+                
+            });
+            
+        })
+    </script>
+</head>
+<body>
+    <div class="row">
+            <img class="hello" src='ninja0.png' data-alt-src='cat0.png' />
+            <!-- <img src="cat0.png"> -->
+            <img class="hello" src='ninja1.png' data-alt-src='cat1.png' />
+            <img class="hello" src='ninja2.png' data-alt-src='cat2.png' />
+            <img class="hello" src='ninja3.png' data-alt-src='cat3.png' />
+            <img class="hello" src='ninja4.png' data-alt-src='cat4.png' />
+        
+    </div>
+            
+
+
+    </body>
+</html>

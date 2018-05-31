@@ -1,0 +1,174 @@
+body{
+ height: 100%
+}
+
+.container{
+
+    
+}
+
+.nopadding{
+    padding: 0px !important;
+}
+
+    .navbar-toggler{
+        transition: all .2s ease-in-out;
+    }
+
+    .navbar-toggler:hover{
+        transform: scale(1.1);
+        background-color: #F18557;
+    }
+
+    .navbar-brand{        
+        transition: .3s ease-in-out;
+        /* margin-left: 5vw; */
+    }
+
+
+        .navbar-brand:hover{
+            transform: scale(1.2);
+            color: #F18557 !important;
+        
+        }
+         
+        li{
+            background: linear-gradient(#565656, #565656 50%, #F18557 50%, #F18557);
+            background-size: 100% 200%;
+            transition: 0.3s ease-in-out;
+            border-radius: 4px;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+    
+            li:hover{
+                background-position: 100% 100%;
+                transform: scale(1.04);  
+            }
+    
+            .name{
+                padding-top: 40px;
+                text-align: center;
+                vertical-align: center;
+                background: #1E1F20;
+                background-position: center;
+                background-repeat: no-repeat;
+                /* width: 100vw; */
+                height: 100vh;            
+            }
+
+            .name p{
+                background-size: cover;
+                background-image: url("https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif");
+                display: inline;
+                background-attachment: absolute;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                font-size: 30vw;
+                
+                /* background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat; */
+                /* background-size: cover; */
+            
+            }
+
+            .content{
+                /* background-size: cover; */
+                /* background-image: url("https://i.giphy.com/media/OK5LK5zLFfdm/giphy.webp"); */
+                /* width: 100vw; */
+                height: 100vh;
+
+            }
+
+                .welcome{
+                    font-size: 20vw;
+                    padding-top: 8vh;
+                    text-align: center;
+                    /* margin: 5vw; */
+                    /* padding: 10px; */
+                }
+                .introduction{
+                    margin: auto;
+                    padding: 2vw;
+                }
+
+                .teknology{
+                    /* background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover; */
+                    background-image: url("https://78.media.tumblr.com/a31061a898563cbd4edb1027340adba4/tumblr_okh26j21Kb1sb5osho1_540.gif");
+                    /* position: fixed; */
+                    height: 25vh;
+                    
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .actual_technology{
+                    height: 100vh;
+                }
+
+                .tech_talk{
+                    height: 100vh;
+                }
+
+                .idoes{
+                    text-align: center;
+                    font-size: 10vw;
+                    padding-top: 10vh;
+                }
+                
+                .vhat{
+                    text-align: left;
+                    font-size: 5vw;
+                    /* padding-top: 10vh; */
+                }
+
+                .tech_talk{
+                    height: 100vh;
+                    padding-top: 10vh;
+                }
+
+                .circly{
+                    background-image: url("https://i.imgur.com/0bB9GNc.gif");
+                    /* background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover; */
+
+                    height: 25vh;
+
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .side_gif{
+                    background-image: url("https://img00.deviantart.net/0d5d/i/2013/206/5/c/part_of_your_no_by_tsaoshin-d6f5s39.png");
+                    height: 25vh;
+
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .contacts{
+                    height: 100vh;
+                    padding-top: 10vh;
+                }
+                .contact_moi{
+                    font-size: 10vh;
+                }
+
+                .footer{
+                    height: 100vh;
+                }
+                
+
+                /* @media only screen and (max-width: 480px){
+                    margin-left: 5px;
+                } */

@@ -1,0 +1,78 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: green;
+}
+
+#whole_thing{
+    width: 970px;
+    /* margin: 0px; */
+    padding: 10px;
+    height: auto;
+    background-color:blue;
+
+}
+#redtop{
+    width: 95%;
+    /* height: auto; */
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px; 
+    border-radius: 10px;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 36px;
+    display: block;
+}
+
+#light_blue{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgba(0, 255, 255, 0.541);
+    color: white;
+}
+
+#light_blue_txt{
+    margin: 0px;
+    background-color: transparent;
+}
+a{
+    color:white;
+    background-color: transparent;
+}
+
+
+#black{
+    width: 67%;
+    vertical-align: top;
+    /* height: auto; */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+}
+
+#grey{
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    background-color: grey;
+    border-radius: 10px;
+    display: block;
+}
+
+#black a{
+    color:blue;
+}
+
+#blue_in_text{
+    color: #0e99ff;
+}

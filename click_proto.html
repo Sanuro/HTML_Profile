@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
+
+    <link rel="stylesheet" type="text/css" href="click_proto.css">
+
+    <!-- <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"> -->
+
+    <title>J.1. Homepage</title>
+
+   <script>
+       $(document).ready(function (){
+        // $(".name").css("display", "block");
+        //    $(".name").hide();
+        //    $(".name").fadeIn(5000);
+           $(".navbar-brand").hover(function(){
+               $(this).text("Jaewon Lee ");
+           }, function(){
+            $(this).text("J.1.");
+           });
+        
+           
+        
+       });
+   </script>
+
+   <!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> -->
+   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="jquery.parallax.js"></script> -->
+
+
+
+
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("navbar-brand");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }       
+    </script>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-xl navbar-dark fixed-top nopadding" style="background-color: #565656">
+
+                <div class="container">
+        
+                    <a href="#" class="navbar-brand" data-hover="Jaewon Lee">J.1. </a> 
+        
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jaetolio" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                        <div class="collapse navbar-collapse" id="jaetolio">        
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active"><a href="#content" class="nav-link">About <i class="fas fa-binoculars"></i></i></a></li>
+                                <li class="nav-item active"><a href="" class="nav-link">Technologies <i class="fas fa-power-off"></i></a></li>
+                                <li class="nav-item active"><a href="" class="nav-link">Projects <i class="fas fa-laptop"></i></a></li>
+                                <li class="nav-item active"><a href="" class="nav-link">Contact <i class="far fa-address-card"></i></a></li>
+                            </ul>
+                        </div>
+                    
+                    </div>    
+        </nav>
+
+        <div  class="name">
+
+                <p class="lee">이</p>
+                <p class="jae">재</p>
+                <p class="won">원</p>
+        </div>
+
+        <div  id="content" class="content">
+            <!-- <img src="https://i.giphy.com/media/OK5LK5zLFfdm/giphy.webp"> -->
+
+            <p class="welcome">Welcome.</p>
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque consequatur eum amet, ipsam rerum possimus dolore quidem molestiae expedita, porro qui dolor laboriosam repellat velit sit obcaecati! Porro, quae molestias.</p>
+        </div>
+        
+        <div ></div>
+        
+
+  
+            
+        
+            
+               
+
+        
+
+    
+</body>
+</html>
+

@@ -1,0 +1,63 @@
+
+*{
+    outline: 2px solid black;
+}
+.main{
+    background-color: pink;
+}
+
+.col{
+    display: block;
+    /* vertical-align: top; */
+    padding: 20px;
+}
+
+.row{
+    padding: 10px;
+    outline: 2px solid black;
+}
+
+
+@media only screen and (max-width: 480px){
+    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+    .sm-4{
+        /* width: 100%; */
+    }
+
+    .med-2, .lg-1{
+        display: none;
+    }
+    /* .navbtn p{
+        background-color: red;
+        display: inline-block;
+    } */
+}
+
+
+@media only screen and (min-width: 481px){
+
+    .sm-4, .lg-1{
+        display: none;
+    }
+
+
+    /* .navbtn p{
+        background-color: blue;
+        display: inline-block;
+    } */
+}
+
+@media only screen and (min-width: 1024px){
+    .lg-1{
+        display: block;
+        width: 100%;
+    }
+
+    .sm-4, .med-2{
+        display: none;
+    }
+    /* .navbtn p{
+        background-color: yellow;
+        display: inline-block;
+    } */
+}

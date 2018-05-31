@@ -1,0 +1,255 @@
+div{
+    border: 2px solid black;
+}
+
+.all{
+    background: linear-gradient(rgba(44, 44, 255, 0.836), rgb(35, 35, 216));
+    display: block;
+    width: 970px;
+    min-height: 1000px;
+    margin: 0px
+
+}
+
+.python_header{
+    /* background-color: red; */
+    display: block;
+    min-height: auto;
+}
+
+    .python_header img{
+        display: inline-block;
+        width: 500px;
+    }
+
+    .python_header .search_stuff{
+        display: inline-block;
+        /* background-color: green; */
+        text-align: right;
+        width: 300px;
+        vertical-align:top;
+        /* vertical-align: right; */
+        margin-left: 150px;
+        color: white;
+    
+    }
+        .python_header .search_stuff p{
+            display: inline-block;
+            margin: 0px;
+            /* color: rgba(255, 255, 0, 0.486); */
+
+            /* background-color: powderblue; */
+        }
+        #line{
+            color: black;
+        }
+
+        .python_header .search_stuff a{
+            color: rgba(255, 255, 0, 0.89);
+
+        }
+
+        .search_stuff .search_bar{
+            display: block;
+            background-color: rgb(66, 66, 66);
+            text-align: right;
+            border-radius: 10px;
+            padding: 20px;
+            /* margin: 20px; */
+            vertical-align: right;
+            color: grey;
+            margin-left: 20px;
+            
+        }
+
+            .search_bar .white{
+                display: inline-block;
+                background-color: white;
+                padding: 10px 50px 10px 50px;
+                box-shadow: 5px 5px 5px rgb(39, 39, 39);
+
+            }
+
+            .search_bar .blue{
+                display: inline-block;
+                background-color: blue;
+                padding: 10px;
+                border-radius: 10px;
+                color: white;
+                box-shadow: 5px 5px 5px rgb(39, 39, 39);
+            }
+
+
+
+
+.navigator{
+    /* background-color: blue; */
+    display: block;
+    width: 970px;
+    margin: 0px
+
+}
+
+    .navigator .navigator_box{
+        background-color: rgb(97, 126, 223);
+        display: block;
+        width: 700px;
+        margin: 0 auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        border-radius: 10px;
+        padding-left: 80px;
+        padding-right: 70px;
+        box-shadow: 5px 5px 5px rgb(39, 39, 39);
+        /* padding-left: 20px; */
+    }
+
+        .navigator .navigator_box h2{
+            text-align: center;
+            color: white;
+            display: inline-block;
+            margin-left: 10px;
+            /* margin-right: 20px; */
+        }
+
+.info{
+    /* background-color: pink; */
+    display: block;
+    width: 970px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+    .info .list_links{
+        /* background-color: rgb(255, 0, 200); */
+        display: inline-block;
+        /* vertical-align: center; */
+        /* text-align: center; */
+        padding: 10px;
+        vertical-align: top;
+        color: rgba(255, 255, 0, 0.486);
+        list-style-position: inside;
+        margin: 0px;
+    }
+
+        .info .list_links a{
+            /* text-decoration: none; */
+            color: white;
+        }
+    
+    .info .info_details{
+        /* background-color: white; */
+        display: inline-block;
+        padding: 10px;
+        width: 70%;
+    }
+
+        .info .info_details #general_purpose{
+            color: white;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .info .info_details #general_purpose{
+            /* background-color: green; */
+            padding: 0px;
+            
+        }
+            .info .info_details h4{
+                color: rgba(255, 255, 0, 0.89);
+                padding:0px;
+                margin: 5px;
+                font-style: italic;
+            }
+
+
+.link_list{
+    background-color:white;
+    display: block;
+    width: 970px;
+    margin: 0px;
+    text-align: center;
+    /* vertical-align: top; */
+}
+
+    .link_list .getting_started{
+        /* background-color: white; */
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        text-decoration: none;
+        border-top: 4px  solid blue;
+        margin-top: 20px;
+
+
+        /* vertical-align: center; */
+
+        /* margin-left: 80px; */
+    }
+
+        .link_list .getting_started a{
+            text-decoration: none;
+        }
+    .link_list .getting_started2{
+        /* background-color: yellow; */
+        display: inline-block;
+        width: 40%;
+        vertical-align: top;
+        margin-left: 40px;
+        border-top: 4px solid blue;
+        margin-top: 20px;
+        /* tex */
+        /* text-decoration: none; */
+        /* vertical-align: center; */
+
+        /* WIDTH: 5000px; */
+        /* margin: 10px; */
+    }
+
+        .link_list .getting_started2 a{
+            text-decoration: none;
+            /* color: white; */
+        }
+
+
+.footer{
+    /* background-color: green; */
+    display: block;
+    width: 970px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+    .footer .boxes .help{
+        /* background-color: pink; */
+        display: inline-block;
+        width: 25%;
+        margin: 10px;
+        text-align: center;
+        vertical-align: center;
+        color: rgba(255, 255, 255, 0.61);
+        
+    }
+
+    .footer #copyright{
+        color: rgba(255, 255, 255, 0.61);
+
+    }
+    /* .footer .boxes #help1{
+        background-color: pink;
+        display: inline-block;
+        width: 25%;
+        margin: 10px;
+        margin-left: 50px;
+        text-align: center;
+        vertical-align: center;
+        
+    } */
+
+    .footer #copyright{
+        text-align: center;
+        display: block;
+        /* background-color: white; */
+    }

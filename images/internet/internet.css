@@ -1,0 +1,294 @@
+*{
+    /* outline: 1px solid rgb(255, 0, 0); */
+    margin:0px;
+    /* padding:0px; */
+}
+
+div{
+   font-family: "serif", sans-serif; 
+   /* outline: 2px dotted black; */
+}
+
+/* parent */
+.main{
+    min-height: 800px;
+    width: 1000px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* header parent */
+.main .header{
+    /* background-color: aqua; */
+    /* text-align: bottom; */
+}
+
+    .header .logo{
+        width: 80px;
+        height: 80px;
+        margin-bottom: -20px;
+        vertical-align: right;
+        text-align: right;
+    }
+
+    .header .title{
+        width: 65px;
+        display: inline-block;
+        text-decoration: italic;
+    }
+
+        .header .net{
+            width: 200px;
+            display: inline-block;
+            color: #31659A;
+        }
+
+      .header .www{
+        color: white;
+        display: block;
+        background: linear-gradient(#3A6B9D, #5B83A9, #3A6B9D);
+        padding: 10px;
+        margin: 0px;
+        /* margin-top: 10px; */
+        /* background-color: #3A6B9D; */
+    }
+
+/* left parent */
+.main .side_left{
+    /* text-align: left; */
+    /* background-color: pink; */
+    vertical-align: left;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    /* padding: -10px 0px -10px 5px; */
+    /* border-bottom: solid black 2px; */
+    /* border-bottom: 2px solid black; */
+    
+    
+}
+    .main .side_left .ad_top{
+        border-bottom: 2px solid black;
+        margin-bottom: 10px;
+    }
+
+        .main .what span{
+            
+            color: #CB3E32;
+            display: inline-block;
+        }
+
+        .main .connect span{
+            color: #32669B;
+            display: inline-block;
+            margin-top: 10px;
+        }
+       
+    .main .watch_a_video{
+        margin:10px;
+        background: linear-gradient(#3A6B9D, #5B83A9);
+        border-radius: 10px;
+        color: white;
+        /* text-align: center; */
+        padding: 10px;
+        /* margin-top: 20px; */
+        width: 80%;
+        /* vertical-align: center; */
+        box-shadow: 5px 5px 5px #8E8E8E;
+    }
+    
+    .main .more_resources{
+        margin: 10px;
+        background: linear-gradient(#E28328, #E3A657);
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 5px;
+        width: 80%;
+        vertical-align: center;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 5px #8E8E8E;
+
+    }
+
+    .main .side_left a{
+        
+        text-align: center;
+        display: block;
+        
+    }
+
+  
+        .main .ad_bar{
+            text-align: center;
+            width: 100%;
+            padding-top: 20px;
+            /* border-top: 2px solid black; */
+            background-image: url("ad_background.png");
+            display: block;
+            margin-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        .main .ad_bar .ninja{
+            width: 100%;
+        }
+    
+    .main .ad_bar .reinvent{
+        color: white;
+        /* display: inline-block; */
+    }
+
+    .main .ad_bar .ninja{
+        /* display: inline-block; */
+        width: 40%;
+    }
+
+    .main .ad_bar .butt{
+        background: linear-gradient(#82CDDD, #4BBEDB);
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #8E8E8E;
+        padding: 10px;
+        color: white;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        /* display: inline-block; */
+    }
+
+    
+
+/* right parent */
+.main .side_right{
+    /* text-align: right; */
+    /* background-color: green; */
+    /* vertical-align: right; */
+    display: inline-block;
+    width: 790px;
+    /* text-align: top; */
+    /* border-bottom: 2px solid #9A9A9A; */
+    padding-bottom: 20px;
+    /* padding: */
+
+}
+
+    .main .side_right .home{
+        width: 20px;
+        height: 20px; 
+        display: inline-block;
+
+    }
+
+        .main .side_right .DNS{
+            text-align: left;
+            display: inline-block;
+        }
+
+    .main .side_right .info{
+        /* vertical-align: right; */
+        /* text-align: right; */
+        vertical-align: top;
+        width: auto;
+        display: inline-block;
+        color: #787878;
+        background-color: white;
+        position: relative;
+        left: 450px;
+        
+    }
+
+
+
+        .main .side_right .phone_nmbr{
+            text-align: center;
+            /* vertical-align: center; */
+            color: #49BDDB;
+            font-size:  36px;
+            /* display: inline-block; */
+        }
+
+        .main .side_right .phone{
+            width: 40px;
+            height: 40px;
+            position: relative;
+            left: 450px;
+            vertical-align: center;
+            display: inline-block;
+            top: 20px;
+            /* margin-right: -550px; */
+        }
+
+    .main .side_right .clients_servers{
+        display: block;
+    }
+
+    h4{
+        color: #31659A;
+    }
+        .main .side_right .clients_servers .main_text{
+            display: inline-block;
+            
+        }
+
+            .main .side_right .clients_servers p{
+                display: inline-block;
+            }
+
+            .main .side_right span{
+                color: #3995AB;
+            }
+
+        .main_text ul{
+            padding-left: 20px;
+        }
+
+        .clienter{
+            text-align: center;
+            /* vertical-align: center; */
+            /* border: 6px solid aqua; */
+
+        }
+
+        .client_serv{
+            width: 40%;
+        }
+    .the_big_three{
+        /* vertical-align: top; */
+        border-top: 5px solid #2B85D9;
+        border-left: 5px solid #2B85D9;
+        border-right: 5px solid #2B85D9;
+        margin-top: 30px;
+        /* box-shadow-right: 5px 5px #8E8E8E; */
+        /* box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8); */
+        box-shadow: 0 0 0 0 rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8), 0 0 0 0 rgba(31, 73, 125, 0.8), 0 0 0 0 rgba(31, 73, 125, 0.8);
+
+
+    }
+    
+        .circles{
+            width: 20%;
+            display: inline-block;
+            /* vertical-align: left; */
+        
+        }
+
+        .title_body1{
+            color: #31659A;
+            /* display: inline-block; */
+        }
+
+        .big_three_text{
+            display: inline-block;
+            width: 70%;
+            vertical-align: top;
+            margin-top: 20px;
+            margin-left: 30px;
+            /* box-shadow: 5px 5px 5px #8E8E8E; */
+        }
+
+            /* .big_three_text h4{
+                
+            } */

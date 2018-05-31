@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+    <script type="text/javascript">
+
+        $(document).ready(function(){
+            $("img").hover(function(){
+                var temp = $(this).attr("src");
+                $(this).attr("src", $(this).attr("data-alt-src"));
+                $(this).attr("data-alt-src", temp);
+                // $(this).hide();
+
+            })
+        });
+    </script>
+        
+
+            
+</head>
+<body>
+    <img src="Izuku_Midoriya_school_profile.png"  data-alt-src="Izuku_Midoriya_2nd_Costume_Full.png" width="250" height="650">
+    <img src="Ochaco_School_Uniform_Full_Body.png"  data-alt-src="Ochaco_Costume_Full_Body.png" width="250" height="650">
+    <img src="Tenya_Iida_Full_Body_School_Uniform.png"  data-alt-src="Tenya_Iida_casual_profile.png" width="250" height="650"> 
+    <img src="All_Might_Full_Body_True_Form.png"  data-alt-src="All_Might_Hero_Form_Full_Body.png" width="250" height="650"> 
+
+    
+</body>
+</html>

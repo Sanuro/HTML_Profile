@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="jquery_example.css">
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+
+
+    <script type="text/javascript">
+        
+    $(document).ready( function() {
+    $(".boop").click(function(){
+        alert("Dun touch me plz");
+            });
+    $(".butt").click(function(){
+        $("p").addClass("da fook");
+    });
+    $("img").hide();
+    $(".lewl").click(function(){
+        $(".terrybaderry").slideToggle("slow");
+    });
+    $("h2 button").click(function(){
+        $("h2 p").append("<p> you have now ded</p>");
+    });
+    });
+    </script>
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div>
+            <h1 class="boop"> boop </h1>
+            <button class="butt" type="button">Add Class</button>
+        </div>
+        <div>
+            <p>da herro</p>
+            <button class="lewl" type="button">slide dat toggle doe</button>
+        </div>
+        <img class="terrybaderry" src="https://media1.tenor.com/images/561160322c187f7233c20b570c07737d/tenor.gif" alt="wowza">
+        <h2>
+            <button type="button">click ta append</button><br>
+            Append
+            <p>make dat new paragraph doe</p>
+        </h2>
+    </div>
+    
+    
+    
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    /* outline: 2px dotted red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: pink;
+}
+
+.lorem{
+    background-color: greenyellow;
+}
+
+.col-md-4{
+    background-color: blue;
+}
+
+.col-md-oiffset-2{
+    background-color: red;
+}
+

@@ -1,0 +1,64 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(5, 5, 184);
+   }
+   #main_header{
+    width: 970px;
+ 
+    
+   }
+   #black-header{
+    height: 150px;
+    background-color: red;
+    margin : 10px ;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    font-family: bold;
+    font-style: bold;
+
+
+   }
+   #home_header{
+    height: 300px;
+    width: 200px;
+    background-color: rgba(79, 171, 194, 0.801);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 10px;
+
+    
+   }
+   #background{
+    height: 400px;
+    width: 700px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    
+
+   }
+   
+   #grey_box{
+    border-radius: 10px;
+    width: 660px;
+    background-color: rgb(44, 44, 44);
+    margin-left: 20px;
+    margin-bottom: 10px;
+    height: auto;
+    padding: 10px;
+
+   }
+   
